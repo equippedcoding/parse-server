@@ -1,3 +1,10 @@
+# [8.3.0-alpha.14](https://github.com/parse-community/parse-server/compare/8.3.0-alpha.13...8.3.0-alpha.14) (2025-11-01)
+
+
+### Features
+
+* Add options to skip automatic creation of internal database indexes on server start ([#9897](https://github.com/parse-community/parse-server/issues/9897)) ([ea91aca](https://github.com/parse-community/parse-server/commit/ea91aca1420c33e038516a321b2640709589f886))
+
 # [8.3.0-alpha.13](https://github.com/parse-community/parse-server/compare/8.3.0-alpha.12...8.3.0-alpha.13) (2025-11-01)
 
 
