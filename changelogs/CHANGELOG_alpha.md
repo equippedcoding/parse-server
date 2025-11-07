@@ -1,3 +1,10 @@
+# [8.5.0-alpha.2](https://github.com/parse-community/parse-server/compare/8.5.0-alpha.1...8.5.0-alpha.2) (2025-11-07)
+
+
+### Features
+
+* Add support for MongoDB driver options `serverSelectionTimeoutMS`, `maxIdleTimeMS`, `heartbeatFrequencyMS` ([#9910](https://github.com/parse-community/parse-server/issues/9910)) ([1b661e9](https://github.com/parse-community/parse-server/commit/1b661e98c86a1db79e076a7297cd9199a72ae1ac))
+
 # [8.5.0-alpha.1](https://github.com/parse-community/parse-server/compare/8.4.0...8.5.0-alpha.1) (2025-11-07)
 
 
