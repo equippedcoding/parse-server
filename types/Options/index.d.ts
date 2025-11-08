@@ -238,6 +238,7 @@ export interface DatabaseOptions {
     authSource?: string;
     autoSelectFamily?: boolean;
     autoSelectFamilyAttemptTimeout?: number;
+    allowPublicExplain?: boolean;
     compressors?: string[] | string;
     connectTimeoutMS?: number;
     directConnection?: boolean;

@@ -1137,6 +1137,13 @@ module.exports.LogClientEvent = {
   },
 };
 module.exports.DatabaseOptions = {
+  allowPublicExplain: {
+    env: 'PARSE_SERVER_DATABASE_ALLOW_PUBLIC_EXPLAIN',
+    help:
+      'Set to `true` to allow `Parse.Query.explain` without master key.<br><br>\u26A0\uFE0F Enabling this option may expose sensitive query performance data to unauthorized users and could potentially be exploited for malicious purposes.',
+    action: parsers.booleanParser,
+    default: true,
+  },
   appName: {
     env: 'PARSE_SERVER_DATABASE_APP_NAME',
     help:

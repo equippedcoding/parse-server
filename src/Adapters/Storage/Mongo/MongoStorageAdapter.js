@@ -148,7 +148,7 @@ export class MongoStorageAdapter implements StorageAdapter {
     this._uri = uri;
     this._collectionPrefix = collectionPrefix;
     this._mongoOptions = { ...mongoOptions };
-    this._onchange = () => { };
+    this._onchange = () => {};
 
     // MaxTimeMS is not a global MongoDB client option, it is applied per operation.
     this._maxTimeMS = mongoOptions.maxTimeMS;
@@ -157,10 +157,12 @@ export class MongoStorageAdapter implements StorageAdapter {
     this.schemaCacheTtl = mongoOptions.schemaCacheTtl;
     this.disableIndexFieldValidation = !!mongoOptions.disableIndexFieldValidation;
     this._logClientEvents = mongoOptions.logClientEvents;
+
     // Remove Parse Server-specific options that should not be passed to MongoDB client
     // Note: We only delete from this._mongoOptions, not from the original mongoOptions object,
     // because other components (like DatabaseController) need access to these options
     for (const key of [
+      'allowPublicExplain',
       'enableSchemaHooks',
       'schemaCacheTtl',
       'maxTimeMS',
