@@ -1,3 +1,10 @@
+# [8.5.0-alpha.5](https://github.com/parse-community/parse-server/compare/8.5.0-alpha.4...8.5.0-alpha.5) (2025-11-08)
+
+
+### Features
+
+* Add Parse Server option `allowPublicExplain` to allow `Parse.Query.explain` without master key ([#9890](https://github.com/parse-community/parse-server/issues/9890)) ([4456b02](https://github.com/parse-community/parse-server/commit/4456b02280c2d8dd58b7250e9e67f1a8647b3452))
+
 # [8.5.0-alpha.4](https://github.com/parse-community/parse-server/compare/8.5.0-alpha.3...8.5.0-alpha.4) (2025-11-08)
 
 
